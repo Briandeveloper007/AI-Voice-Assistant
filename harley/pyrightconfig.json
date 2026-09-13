@@ -1,0 +1,22 @@
+{
+  "include": ["."],
+  "exclude": [
+    ".venv",
+    "**/__pycache__",
+    "_src_old"
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "basic",
+  "extraPaths": [
+    "c:/Users/brian/OneDrive/Desktop/Project/Personal prjs/ai voice assistant (anti-gravity/harley",
+    "."
+  ],
+  "executionEnvironments": [
+    {
+      "root": "."
+    }
+  ]
+}

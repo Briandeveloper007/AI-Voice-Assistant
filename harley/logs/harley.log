@@ -1,0 +1,414 @@
+2026-09-04 14:44:31,888 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:44:31,889 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 14:44:31,889 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:44:31,890 [INFO    ] MainProcess/harley.main — Single-instance mutex acquired: Local\HarleyVoiceAssistant_SingleInstance
+2026-09-04 14:44:31,891 [INFO    ] MainProcess/harley.main — Job Object created with KILL_ON_JOB_CLOSE.
+2026-09-04 14:44:31,891 [INFO    ] MainProcess/harley.main — Initialising database at: C:\Users\brian\OneDrive\Desktop\Project\Personal prjs\ai voice assistant (anti-gravity\harley\data\harley.db
+2026-09-04 14:44:31,912 [INFO    ] MainProcess/harley.main — Database schema initialised (WAL mode active).
+2026-09-04 14:44:31,922 [INFO    ] MainProcess/harley.ui.system_tray — System tray thread spawned.
+2026-09-04 14:44:31,922 [INFO    ] MainProcess/harley.ui.system_tray — System tray icon initialized and running.
+2026-09-04 14:44:31,925 [INFO    ] MainProcess/harley.app.lifecycle — OS Lifecycle watchdog spawned.
+2026-09-04 14:44:31,955 [DEBUG   ] MainProcess/harley.app.lifecycle — Successfully registered for WTS Session Notifications.
+2026-09-04 14:44:31,956 [INFO    ] MainProcess/harley.app.lifecycle — Lifecycle watchdog message pump started.
+2026-09-04 14:44:32,035 [INFO    ] MainProcess/harley.main — PID 42876 assigned to Job Object.
+2026-09-04 14:44:32,035 [INFO    ] MainProcess/harley.main — Process 1 (Audio) started — PID 42876.
+2026-09-04 14:44:32,058 [DEBUG   ] MainProcess/PIL.Image — Importing AvifImagePlugin
+2026-09-04 14:44:32,062 [INFO    ] MainProcess/harley.main — PID 30488 assigned to Job Object.
+2026-09-04 14:44:32,062 [INFO    ] MainProcess/harley.main — Process 3 (TTS) started — PID 30488.
+2026-09-04 14:44:32,063 [INFO    ] MainProcess/harley.main — Process 2 (Orchestrator) running in main process — PID 41492.
+2026-09-04 14:44:32,063 [DEBUG   ] MainProcess/asyncio — Using proactor: IocpProactor
+2026-09-04 14:44:32,066 [INFO    ] MainProcess/harley.main — Orchestrator loop running. CLI=False, DRY_RUN=False
+2026-09-04 14:44:32,144 [ERROR   ] MainProcess/harley.stt — Failed to initialize ONNX Runtime session: [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from models/whisper_onnx failed:Load model models/whisper_onnx failed. File doesn't exist
+2026-09-04 14:44:32,146 [DEBUG   ] MainProcess/PIL.Image — Importing BlpImagePlugin
+2026-09-04 14:44:32,148 [WARNING ] MainProcess/harley.main — Could not init STT Engine (ignore if testing): [ONNXRuntimeError] : 3 : NO_SUCHFILE : Load model from models/whisper_onnx failed:Load model models/whisper_onnx failed. File doesn't exist
+2026-09-04 14:44:32,152 [DEBUG   ] MainProcess/PIL.Image — Importing BmpImagePlugin
+2026-09-04 14:44:32,153 [DEBUG   ] MainProcess/PIL.Image — Importing BufrStubImagePlugin
+2026-09-04 14:44:32,155 [DEBUG   ] MainProcess/PIL.Image — Importing CurImagePlugin
+2026-09-04 14:44:32,158 [DEBUG   ] MainProcess/PIL.Image — Importing DcxImagePlugin
+2026-09-04 14:44:32,162 [DEBUG   ] MainProcess/PIL.Image — Importing DdsImagePlugin
+2026-09-04 14:44:32,169 [DEBUG   ] MainProcess/PIL.Image — Importing EpsImagePlugin
+2026-09-04 14:44:32,174 [DEBUG   ] MainProcess/PIL.Image — Importing FitsImagePlugin
+2026-09-04 14:44:32,181 [DEBUG   ] MainProcess/PIL.Image — Importing FliImagePlugin
+2026-09-04 14:44:32,184 [DEBUG   ] MainProcess/PIL.Image — Importing FpxImagePlugin
+2026-09-04 14:44:32,192 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-09-04 14:44:32,192 [DEBUG   ] MainProcess/PIL.Image — Importing FtexImagePlugin
+2026-09-04 14:44:32,196 [DEBUG   ] MainProcess/PIL.Image — Importing GbrImagePlugin
+2026-09-04 14:44:32,199 [DEBUG   ] MainProcess/PIL.Image — Importing GifImagePlugin
+2026-09-04 14:44:32,200 [DEBUG   ] MainProcess/PIL.Image — Importing GribStubImagePlugin
+2026-09-04 14:44:32,204 [DEBUG   ] MainProcess/PIL.Image — Importing Hdf5StubImagePlugin
+2026-09-04 14:44:32,207 [DEBUG   ] MainProcess/PIL.Image — Importing IcnsImagePlugin
+2026-09-04 14:44:32,214 [DEBUG   ] MainProcess/PIL.Image — Importing IcoImagePlugin
+2026-09-04 14:44:32,218 [DEBUG   ] MainProcess/PIL.Image — Importing ImImagePlugin
+2026-09-04 14:44:32,222 [DEBUG   ] MainProcess/PIL.Image — Importing ImtImagePlugin
+2026-09-04 14:44:32,225 [DEBUG   ] MainProcess/PIL.Image — Importing IptcImagePlugin
+2026-09-04 14:44:32,228 [DEBUG   ] MainProcess/PIL.Image — Importing JpegImagePlugin
+2026-09-04 14:44:32,228 [DEBUG   ] MainProcess/PIL.Image — Importing Jpeg2KImagePlugin
+2026-09-04 14:44:32,229 [DEBUG   ] MainProcess/PIL.Image — Importing McIdasImagePlugin
+2026-09-04 14:44:32,231 [DEBUG   ] MainProcess/PIL.Image — Importing MicImagePlugin
+2026-09-04 14:44:32,237 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-09-04 14:44:32,237 [DEBUG   ] MainProcess/PIL.Image — Importing MpegImagePlugin
+2026-09-04 14:44:32,240 [DEBUG   ] MainProcess/keyring.backend — Loading KWallet
+2026-09-04 14:44:32,241 [DEBUG   ] MainProcess/PIL.Image — Importing MpoImagePlugin
+2026-09-04 14:44:32,243 [DEBUG   ] MainProcess/keyring.backend — Loading SecretService
+2026-09-04 14:44:32,249 [DEBUG   ] MainProcess/PIL.Image — Importing MspImagePlugin
+2026-09-04 14:44:32,249 [DEBUG   ] MainProcess/keyring.backend — Loading Windows
+2026-09-04 14:44:32,251 [DEBUG   ] MainProcess/PIL.Image — Importing PalmImagePlugin
+2026-09-04 14:44:32,255 [DEBUG   ] MainProcess/PIL.Image — Importing PcdImagePlugin
+2026-09-04 14:44:32,257 [DEBUG   ] MainProcess/PIL.Image — Importing PcxImagePlugin
+2026-09-04 14:44:32,258 [DEBUG   ] MainProcess/PIL.Image — Importing PdfImagePlugin
+2026-09-04 14:44:32,269 [DEBUG   ] MainProcess/PIL.Image — Importing PixarImagePlugin
+2026-09-04 14:44:32,272 [DEBUG   ] MainProcess/PIL.Image — Importing PngImagePlugin
+2026-09-04 14:44:32,273 [DEBUG   ] MainProcess/PIL.Image — Importing PpmImagePlugin
+2026-09-04 14:44:32,273 [DEBUG   ] MainProcess/PIL.Image — Importing PsdImagePlugin
+2026-09-04 14:44:32,277 [DEBUG   ] MainProcess/PIL.Image — Importing QoiImagePlugin
+2026-09-04 14:44:32,279 [DEBUG   ] MainProcess/PIL.Image — Importing SgiImagePlugin
+2026-09-04 14:44:32,282 [DEBUG   ] MainProcess/PIL.Image — Importing SpiderImagePlugin
+2026-09-04 14:44:32,283 [DEBUG   ] MainProcess/PIL.Image — Importing SunImagePlugin
+2026-09-04 14:44:32,285 [DEBUG   ] MainProcess/PIL.Image — Importing TgaImagePlugin
+2026-09-04 14:44:32,289 [DEBUG   ] MainProcess/PIL.Image — Importing TiffImagePlugin
+2026-09-04 14:44:32,289 [DEBUG   ] MainProcess/PIL.Image — Importing WebPImagePlugin
+2026-09-04 14:44:32,290 [DEBUG   ] MainProcess/win32ctypes.core.cffi — Loaded cffi backend
+2026-09-04 14:44:32,331 [DEBUG   ] MainProcess/PIL.Image — Importing WmfImagePlugin
+2026-09-04 14:44:32,333 [DEBUG   ] MainProcess/PIL.Image — Importing XbmImagePlugin
+2026-09-04 14:44:32,337 [DEBUG   ] MainProcess/PIL.Image — Importing XpmImagePlugin
+2026-09-04 14:44:32,340 [DEBUG   ] MainProcess/PIL.Image — Importing XVThumbImagePlugin
+2026-09-04 14:44:32,458 [DEBUG   ] MainProcess/keyring.backend — Loading chainer
+2026-09-04 14:44:32,461 [DEBUG   ] MainProcess/keyring.backend — Loading libsecret
+2026-09-04 14:44:32,464 [DEBUG   ] MainProcess/keyring.backend — Loading macOS
+2026-09-04 14:44:34,521 [INFO    ] HarleyTTS/harley.tts — TTS worker started (PID 30488).
+2026-09-04 14:44:34,522 [INFO    ] HarleyAudio/harley.audio — Audio worker started (PID 42876).
+2026-09-04 14:56:23,633 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:56:23,634 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 14:56:23,634 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:56:23,634 [WARNING ] MainProcess/harley.main — Harley is already running (mutex exists). Exiting.
+2026-09-04 14:56:23,634 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 14:56:23,634 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 14:58:54,203 [INFO    ] MainProcess/harley.ui.system_tray — System Tray: Exit requested by user.
+2026-09-04 14:58:54,211 [INFO    ] HarleyAudio/harley.audio — Audio worker exiting.
+2026-09-04 14:58:54,212 [DEBUG   ] HarleyAudio/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 14:58:54,213 [DEBUG   ] HarleyAudio/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 14:58:54,221 [INFO    ] MainProcess/harley.main — Orchestrator loop exiting.
+2026-09-04 14:58:54,253 [INFO    ] HarleyTTS/harley.tts — TTS worker stopped.
+2026-09-04 14:58:54,254 [DEBUG   ] HarleyTTS/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 14:58:54,255 [DEBUG   ] HarleyTTS/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 14:58:54,812 [INFO    ] MainProcess/harley.main — Harley exited cleanly.
+2026-09-04 14:58:54,813 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 14:58:54,814 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 14:59:06,339 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:59:06,340 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 14:59:06,341 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 14:59:06,341 [INFO    ] MainProcess/harley.main — Single-instance mutex acquired: Local\HarleyVoiceAssistant_SingleInstance
+2026-09-04 14:59:06,341 [INFO    ] MainProcess/harley.main — Job Object created with KILL_ON_JOB_CLOSE.
+2026-09-04 14:59:06,342 [INFO    ] MainProcess/harley.main — Initialising database at: C:\Users\brian\OneDrive\Desktop\Project\Personal prjs\ai voice assistant (anti-gravity\harley\data\harley.db
+2026-09-04 14:59:06,344 [INFO    ] MainProcess/harley.main — Database schema initialised (WAL mode active).
+2026-09-04 14:59:06,348 [INFO    ] MainProcess/harley.ui.system_tray — System tray thread spawned.
+2026-09-04 14:59:06,348 [INFO    ] MainProcess/harley.ui.system_tray — System tray icon initialized and running.
+2026-09-04 14:59:06,352 [INFO    ] MainProcess/harley.app.lifecycle — OS Lifecycle watchdog spawned.
+2026-09-04 14:59:06,354 [INFO    ] MainProcess/harley.main — Skipping Process 1 (Audio) because --cli mode is active.
+2026-09-04 14:59:06,378 [DEBUG   ] MainProcess/harley.app.lifecycle — Successfully registered for WTS Session Notifications.
+2026-09-04 14:59:06,379 [INFO    ] MainProcess/harley.app.lifecycle — Lifecycle watchdog message pump started.
+2026-09-04 14:59:06,392 [INFO    ] MainProcess/harley.main — PID 26760 assigned to Job Object.
+2026-09-04 14:59:06,393 [INFO    ] MainProcess/harley.main — Process 3 (TTS) started — PID 26760.
+2026-09-04 14:59:06,394 [INFO    ] MainProcess/harley.main — Process 2 (Orchestrator) running in main process — PID 21288.
+2026-09-04 14:59:06,396 [DEBUG   ] MainProcess/asyncio — Using proactor: IocpProactor
+2026-09-04 14:59:06,405 [INFO    ] MainProcess/harley.main — Orchestrator loop running. CLI=True, DRY_RUN=False
+2026-09-04 14:59:06,481 [DEBUG   ] MainProcess/PIL.Image — Importing AvifImagePlugin
+2026-09-04 14:59:06,493 [DEBUG   ] MainProcess/PIL.Image — Importing BlpImagePlugin
+2026-09-04 14:59:06,499 [DEBUG   ] MainProcess/PIL.Image — Importing BmpImagePlugin
+2026-09-04 14:59:06,500 [DEBUG   ] MainProcess/PIL.Image — Importing BufrStubImagePlugin
+2026-09-04 14:59:06,504 [DEBUG   ] MainProcess/PIL.Image — Importing CurImagePlugin
+2026-09-04 14:59:06,510 [DEBUG   ] MainProcess/PIL.Image — Importing DcxImagePlugin
+2026-09-04 14:59:06,519 [DEBUG   ] MainProcess/PIL.Image — Importing DdsImagePlugin
+2026-09-04 14:59:06,530 [DEBUG   ] MainProcess/PIL.Image — Importing EpsImagePlugin
+2026-09-04 14:59:06,536 [DEBUG   ] MainProcess/PIL.Image — Importing FitsImagePlugin
+2026-09-04 14:59:06,549 [DEBUG   ] MainProcess/PIL.Image — Importing FliImagePlugin
+2026-09-04 14:59:06,554 [DEBUG   ] MainProcess/PIL.Image — Importing FpxImagePlugin
+2026-09-04 14:59:06,564 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-09-04 14:59:06,565 [DEBUG   ] MainProcess/PIL.Image — Importing FtexImagePlugin
+2026-09-04 14:59:06,569 [DEBUG   ] MainProcess/PIL.Image — Importing GbrImagePlugin
+2026-09-04 14:59:06,576 [DEBUG   ] MainProcess/PIL.Image — Importing GifImagePlugin
+2026-09-04 14:59:06,576 [DEBUG   ] MainProcess/PIL.Image — Importing GribStubImagePlugin
+2026-09-04 14:59:06,579 [DEBUG   ] MainProcess/keyring.backend — Loading KWallet
+2026-09-04 14:59:06,580 [DEBUG   ] MainProcess/PIL.Image — Importing Hdf5StubImagePlugin
+2026-09-04 14:59:06,582 [DEBUG   ] MainProcess/keyring.backend — Loading SecretService
+2026-09-04 14:59:06,582 [DEBUG   ] MainProcess/PIL.Image — Importing IcnsImagePlugin
+2026-09-04 14:59:06,586 [DEBUG   ] MainProcess/keyring.backend — Loading Windows
+2026-09-04 14:59:06,591 [DEBUG   ] MainProcess/PIL.Image — Importing IcoImagePlugin
+2026-09-04 14:59:06,595 [DEBUG   ] MainProcess/PIL.Image — Importing ImImagePlugin
+2026-09-04 14:59:06,598 [DEBUG   ] MainProcess/PIL.Image — Importing ImtImagePlugin
+2026-09-04 14:59:06,603 [DEBUG   ] MainProcess/PIL.Image — Importing IptcImagePlugin
+2026-09-04 14:59:06,607 [DEBUG   ] MainProcess/PIL.Image — Importing JpegImagePlugin
+2026-09-04 14:59:06,608 [DEBUG   ] MainProcess/PIL.Image — Importing Jpeg2KImagePlugin
+2026-09-04 14:59:06,609 [DEBUG   ] MainProcess/PIL.Image — Importing McIdasImagePlugin
+2026-09-04 14:59:06,615 [DEBUG   ] MainProcess/PIL.Image — Importing MicImagePlugin
+2026-09-04 14:59:06,621 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-09-04 14:59:06,622 [DEBUG   ] MainProcess/PIL.Image — Importing MpegImagePlugin
+2026-09-04 14:59:06,625 [DEBUG   ] MainProcess/PIL.Image — Importing MpoImagePlugin
+2026-09-04 14:59:06,635 [DEBUG   ] MainProcess/PIL.Image — Importing MspImagePlugin
+2026-09-04 14:59:06,641 [DEBUG   ] MainProcess/win32ctypes.core.cffi — Loaded cffi backend
+2026-09-04 14:59:06,644 [DEBUG   ] MainProcess/PIL.Image — Importing PalmImagePlugin
+2026-09-04 14:59:06,649 [DEBUG   ] MainProcess/PIL.Image — Importing PcdImagePlugin
+2026-09-04 14:59:06,651 [DEBUG   ] MainProcess/PIL.Image — Importing PcxImagePlugin
+2026-09-04 14:59:06,652 [DEBUG   ] MainProcess/PIL.Image — Importing PdfImagePlugin
+2026-09-04 14:59:06,663 [DEBUG   ] MainProcess/PIL.Image — Importing PixarImagePlugin
+2026-09-04 14:59:06,666 [DEBUG   ] MainProcess/PIL.Image — Importing PngImagePlugin
+2026-09-04 14:59:06,667 [DEBUG   ] MainProcess/PIL.Image — Importing PpmImagePlugin
+2026-09-04 14:59:06,668 [DEBUG   ] MainProcess/PIL.Image — Importing PsdImagePlugin
+2026-09-04 14:59:06,674 [DEBUG   ] MainProcess/PIL.Image — Importing QoiImagePlugin
+2026-09-04 14:59:06,680 [DEBUG   ] MainProcess/PIL.Image — Importing SgiImagePlugin
+2026-09-04 14:59:06,684 [DEBUG   ] MainProcess/PIL.Image — Importing SpiderImagePlugin
+2026-09-04 14:59:06,702 [DEBUG   ] MainProcess/PIL.Image — Importing SunImagePlugin
+2026-09-04 14:59:06,711 [DEBUG   ] MainProcess/PIL.Image — Importing TgaImagePlugin
+2026-09-04 14:59:06,716 [DEBUG   ] MainProcess/PIL.Image — Importing TiffImagePlugin
+2026-09-04 14:59:06,716 [DEBUG   ] MainProcess/PIL.Image — Importing WebPImagePlugin
+2026-09-04 14:59:06,731 [DEBUG   ] MainProcess/PIL.Image — Importing WmfImagePlugin
+2026-09-04 14:59:06,734 [DEBUG   ] MainProcess/PIL.Image — Importing XbmImagePlugin
+2026-09-04 14:59:06,737 [DEBUG   ] MainProcess/PIL.Image — Importing XpmImagePlugin
+2026-09-04 14:59:06,752 [DEBUG   ] MainProcess/keyring.backend — Loading chainer
+2026-09-04 14:59:06,752 [DEBUG   ] MainProcess/PIL.Image — Importing XVThumbImagePlugin
+2026-09-04 14:59:06,754 [DEBUG   ] MainProcess/keyring.backend — Loading libsecret
+2026-09-04 14:59:06,759 [DEBUG   ] MainProcess/keyring.backend — Loading macOS
+2026-09-04 14:59:08,921 [INFO    ] HarleyTTS/harley.tts — TTS worker started (PID 26760).
+2026-09-04 14:59:21,711 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:04:25,451 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:38,145 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:38,160 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:38,189 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:38,219 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:38,249 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:40,257 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:53,505 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 15:09:53,610 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 17:22:38,117 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: Workstation Locked.
+2026-09-04 18:52:22,900 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: Workstation Unlocked.
+2026-09-04 18:53:32,252 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:53:32,252 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 18:53:32,253 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:53:32,253 [WARNING ] MainProcess/harley.main — Harley is already running (mutex exists). Exiting.
+2026-09-04 18:53:32,253 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 18:53:32,253 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 18:55:24,914 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:55:24,915 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 18:55:24,915 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:55:24,915 [INFO    ] MainProcess/harley.main — Single-instance mutex acquired: Local\HarleyVoiceAssistant_SingleInstance
+2026-09-04 18:55:24,916 [INFO    ] MainProcess/harley.main — Job Object created with KILL_ON_JOB_CLOSE.
+2026-09-04 18:55:24,916 [INFO    ] MainProcess/harley.main — Initialising database at: C:\Users\brian\OneDrive\Desktop\Project\Personal prjs\ai voice assistant (anti-gravity\harley\data\harley.db
+2026-09-04 18:55:24,920 [INFO    ] MainProcess/harley.main — Database schema initialised (WAL mode active).
+2026-09-04 18:55:24,936 [INFO    ] MainProcess/harley.ui.system_tray — System tray thread spawned.
+2026-09-04 18:55:24,937 [INFO    ] MainProcess/harley.ui.system_tray — System tray icon initialized and running.
+2026-09-04 18:55:24,943 [INFO    ] MainProcess/harley.app.lifecycle — OS Lifecycle watchdog spawned.
+2026-09-04 18:55:24,944 [INFO    ] MainProcess/harley.main — Skipping Process 1 (Audio) because --cli mode is active.
+2026-09-04 18:55:24,966 [DEBUG   ] MainProcess/harley.app.lifecycle — Successfully registered for WTS Session Notifications.
+2026-09-04 18:55:24,967 [INFO    ] MainProcess/harley.app.lifecycle — Lifecycle watchdog message pump started.
+2026-09-04 18:55:24,976 [INFO    ] MainProcess/harley.main — PID 30388 assigned to Job Object.
+2026-09-04 18:55:24,978 [INFO    ] MainProcess/harley.main — Process 3 (TTS) started — PID 30388.
+2026-09-04 18:55:24,980 [INFO    ] MainProcess/harley.main — Process 2 (Orchestrator) running in main process — PID 46472.
+2026-09-04 18:55:24,981 [DEBUG   ] MainProcess/asyncio — Using proactor: IocpProactor
+2026-09-04 18:55:24,983 [INFO    ] MainProcess/harley.main — Orchestrator loop running. CLI=True, DRY_RUN=False
+2026-09-04 18:55:25,018 [DEBUG   ] MainProcess/PIL.Image — Importing AvifImagePlugin
+2026-09-04 18:55:25,025 [DEBUG   ] MainProcess/PIL.Image — Importing BlpImagePlugin
+2026-09-04 18:55:25,028 [DEBUG   ] MainProcess/PIL.Image — Importing BmpImagePlugin
+2026-09-04 18:55:25,030 [DEBUG   ] MainProcess/PIL.Image — Importing BufrStubImagePlugin
+2026-09-04 18:55:25,032 [DEBUG   ] MainProcess/PIL.Image — Importing CurImagePlugin
+2026-09-04 18:55:25,036 [DEBUG   ] MainProcess/PIL.Image — Importing DcxImagePlugin
+2026-09-04 18:55:25,039 [DEBUG   ] MainProcess/PIL.Image — Importing DdsImagePlugin
+2026-09-04 18:55:25,049 [DEBUG   ] MainProcess/PIL.Image — Importing EpsImagePlugin
+2026-09-04 18:55:25,053 [DEBUG   ] MainProcess/PIL.Image — Importing FitsImagePlugin
+2026-09-04 18:55:25,067 [DEBUG   ] MainProcess/PIL.Image — Importing FliImagePlugin
+2026-09-04 18:55:25,071 [DEBUG   ] MainProcess/PIL.Image — Importing FpxImagePlugin
+2026-09-04 18:55:25,078 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-09-04 18:55:25,080 [DEBUG   ] MainProcess/PIL.Image — Importing FtexImagePlugin
+2026-09-04 18:55:25,083 [DEBUG   ] MainProcess/keyring.backend — Loading KWallet
+2026-09-04 18:55:25,084 [DEBUG   ] MainProcess/PIL.Image — Importing GbrImagePlugin
+2026-09-04 18:55:25,088 [DEBUG   ] MainProcess/PIL.Image — Importing GifImagePlugin
+2026-09-04 18:55:25,088 [DEBUG   ] MainProcess/keyring.backend — Loading SecretService
+2026-09-04 18:55:25,088 [DEBUG   ] MainProcess/PIL.Image — Importing GribStubImagePlugin
+2026-09-04 18:55:25,091 [DEBUG   ] MainProcess/PIL.Image — Importing Hdf5StubImagePlugin
+2026-09-04 18:55:25,091 [DEBUG   ] MainProcess/keyring.backend — Loading Windows
+2026-09-04 18:55:25,093 [DEBUG   ] MainProcess/PIL.Image — Importing IcnsImagePlugin
+2026-09-04 18:55:25,101 [DEBUG   ] MainProcess/PIL.Image — Importing IcoImagePlugin
+2026-09-04 18:55:25,104 [DEBUG   ] MainProcess/PIL.Image — Importing ImImagePlugin
+2026-09-04 18:55:25,107 [DEBUG   ] MainProcess/PIL.Image — Importing ImtImagePlugin
+2026-09-04 18:55:25,111 [DEBUG   ] MainProcess/PIL.Image — Importing IptcImagePlugin
+2026-09-04 18:55:25,114 [DEBUG   ] MainProcess/PIL.Image — Importing JpegImagePlugin
+2026-09-04 18:55:25,115 [DEBUG   ] MainProcess/PIL.Image — Importing Jpeg2KImagePlugin
+2026-09-04 18:55:25,115 [DEBUG   ] MainProcess/PIL.Image — Importing McIdasImagePlugin
+2026-09-04 18:55:25,117 [DEBUG   ] MainProcess/PIL.Image — Importing MicImagePlugin
+2026-09-04 18:55:25,120 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-09-04 18:55:25,121 [DEBUG   ] MainProcess/PIL.Image — Importing MpegImagePlugin
+2026-09-04 18:55:25,124 [DEBUG   ] MainProcess/PIL.Image — Importing MpoImagePlugin
+2026-09-04 18:55:25,126 [DEBUG   ] MainProcess/win32ctypes.core.cffi — Loaded cffi backend
+2026-09-04 18:55:25,131 [DEBUG   ] MainProcess/PIL.Image — Importing MspImagePlugin
+2026-09-04 18:55:25,134 [DEBUG   ] MainProcess/PIL.Image — Importing PalmImagePlugin
+2026-09-04 18:55:25,137 [DEBUG   ] MainProcess/PIL.Image — Importing PcdImagePlugin
+2026-09-04 18:55:25,140 [DEBUG   ] MainProcess/PIL.Image — Importing PcxImagePlugin
+2026-09-04 18:55:25,141 [DEBUG   ] MainProcess/PIL.Image — Importing PdfImagePlugin
+2026-09-04 18:55:25,153 [DEBUG   ] MainProcess/PIL.Image — Importing PixarImagePlugin
+2026-09-04 18:55:25,156 [DEBUG   ] MainProcess/PIL.Image — Importing PngImagePlugin
+2026-09-04 18:55:25,156 [DEBUG   ] MainProcess/PIL.Image — Importing PpmImagePlugin
+2026-09-04 18:55:25,157 [DEBUG   ] MainProcess/PIL.Image — Importing PsdImagePlugin
+2026-09-04 18:55:25,161 [DEBUG   ] MainProcess/PIL.Image — Importing QoiImagePlugin
+2026-09-04 18:55:25,186 [DEBUG   ] MainProcess/PIL.Image — Importing SgiImagePlugin
+2026-09-04 18:55:25,193 [DEBUG   ] MainProcess/PIL.Image — Importing SpiderImagePlugin
+2026-09-04 18:55:25,212 [DEBUG   ] MainProcess/PIL.Image — Importing SunImagePlugin
+2026-09-04 18:55:25,219 [DEBUG   ] MainProcess/PIL.Image — Importing TgaImagePlugin
+2026-09-04 18:55:25,223 [DEBUG   ] MainProcess/PIL.Image — Importing TiffImagePlugin
+2026-09-04 18:55:25,223 [DEBUG   ] MainProcess/PIL.Image — Importing WebPImagePlugin
+2026-09-04 18:55:25,239 [DEBUG   ] MainProcess/keyring.backend — Loading chainer
+2026-09-04 18:55:25,239 [DEBUG   ] MainProcess/PIL.Image — Importing WmfImagePlugin
+2026-09-04 18:55:25,241 [DEBUG   ] MainProcess/keyring.backend — Loading libsecret
+2026-09-04 18:55:25,242 [DEBUG   ] MainProcess/PIL.Image — Importing XbmImagePlugin
+2026-09-04 18:55:25,248 [DEBUG   ] MainProcess/PIL.Image — Importing XpmImagePlugin
+2026-09-04 18:55:25,248 [DEBUG   ] MainProcess/keyring.backend — Loading macOS
+2026-09-04 18:55:25,251 [DEBUG   ] MainProcess/PIL.Image — Importing XVThumbImagePlugin
+2026-09-04 18:55:27,708 [INFO    ] HarleyTTS/harley.tts — TTS worker started (PID 30388).
+2026-09-04 18:55:41,770 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-04 18:55:52,368 [INFO    ] HarleyTTS/harley.tts — TTS worker stopped.
+2026-09-04 18:55:52,367 [INFO    ] MainProcess/harley.main — Received SIGINT — initiating graceful shutdown.
+2026-09-04 18:55:52,405 [DEBUG   ] HarleyTTS/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 18:55:52,405 [DEBUG   ] HarleyTTS/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 18:55:52,591 [INFO    ] MainProcess/harley.main — Harley shutdown complete.
+2026-09-04 18:55:52,592 [INFO    ] MainProcess/harley.main — Harley exited cleanly.
+2026-09-04 18:55:52,593 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — Calling CoUninitialize()
+2026-09-04 18:55:52,593 [DEBUG   ] MainProcess/comtypes._post_coinit.unknwn — CoUninitialize() done.
+2026-09-04 18:58:28,168 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:58:28,169 [INFO    ] MainProcess/harley.main —   Harley Voice Assistant — starting up
+2026-09-04 18:58:28,169 [INFO    ] MainProcess/harley.main — ============================================================
+2026-09-04 18:58:28,169 [INFO    ] MainProcess/harley.main — Single-instance mutex acquired: Local\HarleyVoiceAssistant_SingleInstance
+2026-09-04 18:58:28,169 [INFO    ] MainProcess/harley.main — Job Object created with KILL_ON_JOB_CLOSE.
+2026-09-04 18:58:28,169 [INFO    ] MainProcess/harley.main — Initialising database at: C:\Users\brian\OneDrive\Desktop\Project\Personal prjs\ai voice assistant (anti-gravity\harley\data\harley.db
+2026-09-04 18:58:28,172 [INFO    ] MainProcess/harley.main — Database schema initialised (WAL mode active).
+2026-09-04 18:58:28,187 [INFO    ] MainProcess/harley.ui.system_tray — System tray thread spawned.
+2026-09-04 18:58:28,187 [INFO    ] MainProcess/harley.ui.system_tray — System tray icon initialized and running.
+2026-09-04 18:58:28,213 [INFO    ] MainProcess/harley.app.lifecycle — OS Lifecycle watchdog spawned.
+2026-09-04 18:58:28,221 [INFO    ] MainProcess/harley.main — Skipping Process 1 (Audio) because --cli mode is active.
+2026-09-04 18:58:28,241 [DEBUG   ] MainProcess/harley.app.lifecycle — Successfully registered for WTS Session Notifications.
+2026-09-04 18:58:28,244 [INFO    ] MainProcess/harley.app.lifecycle — Lifecycle watchdog message pump started.
+2026-09-04 18:58:28,253 [INFO    ] MainProcess/harley.main — PID 23372 assigned to Job Object.
+2026-09-04 18:58:28,255 [INFO    ] MainProcess/harley.main — Process 3 (TTS) started — PID 23372.
+2026-09-04 18:58:28,256 [INFO    ] MainProcess/harley.main — Process 2 (Orchestrator) running in main process — PID 14348.
+2026-09-04 18:58:28,262 [DEBUG   ] MainProcess/asyncio — Using proactor: IocpProactor
+2026-09-04 18:58:28,264 [INFO    ] MainProcess/harley.main — Orchestrator loop running. CLI=True, DRY_RUN=False
+2026-09-04 18:58:28,392 [DEBUG   ] MainProcess/PIL.Image — Importing AvifImagePlugin
+2026-09-04 18:58:28,402 [DEBUG   ] MainProcess/PIL.Image — Importing BlpImagePlugin
+2026-09-04 18:58:28,404 [DEBUG   ] MainProcess/PIL.Image — Importing BmpImagePlugin
+2026-09-04 18:58:28,405 [DEBUG   ] MainProcess/PIL.Image — Importing BufrStubImagePlugin
+2026-09-04 18:58:28,408 [DEBUG   ] MainProcess/PIL.Image — Importing CurImagePlugin
+2026-09-04 18:58:28,409 [DEBUG   ] MainProcess/PIL.Image — Importing DcxImagePlugin
+2026-09-04 18:58:28,414 [DEBUG   ] MainProcess/PIL.Image — Importing DdsImagePlugin
+2026-09-04 18:58:28,436 [DEBUG   ] MainProcess/PIL.Image — Importing EpsImagePlugin
+2026-09-04 18:58:28,444 [DEBUG   ] MainProcess/PIL.Image — Importing FitsImagePlugin
+2026-09-04 18:58:28,450 [DEBUG   ] MainProcess/PIL.Image — Importing FliImagePlugin
+2026-09-04 18:58:28,453 [DEBUG   ] MainProcess/PIL.Image — Importing FpxImagePlugin
+2026-09-04 18:58:28,458 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-09-04 18:58:28,459 [DEBUG   ] MainProcess/PIL.Image — Importing FtexImagePlugin
+2026-09-04 18:58:28,462 [DEBUG   ] MainProcess/PIL.Image — Importing GbrImagePlugin
+2026-09-04 18:58:28,464 [DEBUG   ] MainProcess/PIL.Image — Importing GifImagePlugin
+2026-09-04 18:58:28,464 [DEBUG   ] MainProcess/PIL.Image — Importing GribStubImagePlugin
+2026-09-04 18:58:28,468 [DEBUG   ] MainProcess/PIL.Image — Importing Hdf5StubImagePlugin
+2026-09-04 18:58:28,471 [DEBUG   ] MainProcess/PIL.Image — Importing IcnsImagePlugin
+2026-09-04 18:58:28,477 [DEBUG   ] MainProcess/keyring.backend — Loading KWallet
+2026-09-04 18:58:28,479 [DEBUG   ] MainProcess/PIL.Image — Importing IcoImagePlugin
+2026-09-04 18:58:28,482 [DEBUG   ] MainProcess/PIL.Image — Importing ImImagePlugin
+2026-09-04 18:58:28,483 [DEBUG   ] MainProcess/keyring.backend — Loading SecretService
+2026-09-04 18:58:28,485 [DEBUG   ] MainProcess/PIL.Image — Importing ImtImagePlugin
+2026-09-04 18:58:28,487 [DEBUG   ] MainProcess/keyring.backend — Loading Windows
+2026-09-04 18:58:28,489 [DEBUG   ] MainProcess/PIL.Image — Importing IptcImagePlugin
+2026-09-04 18:58:28,492 [DEBUG   ] MainProcess/PIL.Image — Importing JpegImagePlugin
+2026-09-04 18:58:28,492 [DEBUG   ] MainProcess/PIL.Image — Importing Jpeg2KImagePlugin
+2026-09-04 18:58:28,493 [DEBUG   ] MainProcess/PIL.Image — Importing McIdasImagePlugin
+2026-09-04 18:58:28,495 [DEBUG   ] MainProcess/PIL.Image — Importing MicImagePlugin
+2026-09-04 18:58:28,501 [DEBUG   ] MainProcess/PIL.Image — Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-09-04 18:58:28,502 [DEBUG   ] MainProcess/PIL.Image — Importing MpegImagePlugin
+2026-09-04 18:58:28,508 [DEBUG   ] MainProcess/PIL.Image — Importing MpoImagePlugin
+2026-09-04 18:58:28,515 [DEBUG   ] MainProcess/PIL.Image — Importing MspImagePlugin
+2026-09-04 18:58:28,518 [DEBUG   ] MainProcess/PIL.Image — Importing PalmImagePlugin
+2026-09-04 18:58:28,521 [DEBUG   ] MainProcess/PIL.Image — Importing PcdImagePlugin
+2026-09-04 18:58:28,524 [DEBUG   ] MainProcess/PIL.Image — Importing PcxImagePlugin
+2026-09-04 18:58:28,524 [DEBUG   ] MainProcess/PIL.Image — Importing PdfImagePlugin
+2026-09-04 18:58:28,536 [DEBUG   ] MainProcess/PIL.Image — Importing PixarImagePlugin
+2026-09-04 18:58:28,536 [DEBUG   ] MainProcess/win32ctypes.core.cffi — Loaded cffi backend
+2026-09-04 18:58:28,539 [DEBUG   ] MainProcess/PIL.Image — Importing PngImagePlugin
+2026-09-04 18:58:28,540 [DEBUG   ] MainProcess/PIL.Image — Importing PpmImagePlugin
+2026-09-04 18:58:28,541 [DEBUG   ] MainProcess/PIL.Image — Importing PsdImagePlugin
+2026-09-04 18:58:28,543 [DEBUG   ] MainProcess/PIL.Image — Importing QoiImagePlugin
+2026-09-04 18:58:28,546 [DEBUG   ] MainProcess/PIL.Image — Importing SgiImagePlugin
+2026-09-04 18:58:28,549 [DEBUG   ] MainProcess/PIL.Image — Importing SpiderImagePlugin
+2026-09-04 18:58:28,552 [DEBUG   ] MainProcess/PIL.Image — Importing SunImagePlugin
+2026-09-04 18:58:28,555 [DEBUG   ] MainProcess/PIL.Image — Importing TgaImagePlugin
+2026-09-04 18:58:28,558 [DEBUG   ] MainProcess/PIL.Image — Importing TiffImagePlugin
+2026-09-04 18:58:28,558 [DEBUG   ] MainProcess/PIL.Image — Importing WebPImagePlugin
+2026-09-04 18:58:28,580 [DEBUG   ] MainProcess/PIL.Image — Importing WmfImagePlugin
+2026-09-04 18:58:28,588 [DEBUG   ] MainProcess/PIL.Image — Importing XbmImagePlugin
+2026-09-04 18:58:28,606 [DEBUG   ] MainProcess/PIL.Image — Importing XpmImagePlugin
+2026-09-04 18:58:28,611 [DEBUG   ] MainProcess/PIL.Image — Importing XVThumbImagePlugin
+2026-09-04 18:58:28,630 [DEBUG   ] MainProcess/keyring.backend — Loading chainer
+2026-09-04 18:58:28,632 [DEBUG   ] MainProcess/keyring.backend — Loading libsecret
+2026-09-04 18:58:28,634 [DEBUG   ] MainProcess/keyring.backend — Loading macOS
+2026-09-04 18:58:31,095 [INFO    ] HarleyTTS/harley.tts — TTS worker started (PID 23372).
+2026-09-04 18:58:43,157 [DEBUG   ] MainProcess/openai._base_client — Building HTTP request: method=POST retries_taken=0
+2026-09-04 18:58:43,158 [DEBUG   ] MainProcess/openai._base_client — Sending HTTP Request: POST
+2026-09-04 18:58:43,219 [DEBUG   ] MainProcess/httpcore2.connection — connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-09-04 18:58:43,284 [DEBUG   ] MainProcess/httpcore2.connection — connect_tcp.complete return_value=<httpcore2._backends.anyio.AnyIOStream object at 0x00000255F9D2BDD0>
+2026-09-04 18:58:43,287 [DEBUG   ] MainProcess/httpcore2.connection — start_tls.started ssl_context=<truststore._api.SSLContext object at 0x00000255F82696D0> server_hostname='api.openai.com' timeout=5.0
+2026-09-04 18:58:43,359 [DEBUG   ] MainProcess/httpcore2.connection — start_tls.complete return_value=<httpcore2._backends.anyio.AnyIOStream object at 0x00000255F9CD5490>
+2026-09-04 18:58:43,360 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:43,361 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.complete
+2026-09-04 18:58:43,361 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.started request=<Request [b'POST']>
+2026-09-04 18:58:43,362 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.complete
+2026-09-04 18:58:43,362 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:45,592 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 04 Sep 2026 13:28:45 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'283'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a35d56c70fb64981-MAA'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'X-Content-Type-Options', b'nosniff'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-request-id', b'req_24b9643b5eb442f6a08d1169de0fa563'), (b'set-cookie', b'__cf_bm=3ojcz7D9JPTwZZjE75CzsLehpGcomBxLcSq2xVkj1zI-1788528523.3652956-1.0.1.1-qGp9ZZTdQ4AUqlw4QKyAOVJMozwN3juc1EinYTzBftw3uqIFgxpa.sW9MF8ysy0DZ5Ibq8.w4F.SOF3EW_07o6ZhfvGgb_LCB8e5rlK4wmIED1ffkspG74KwG33Z_k7b; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 04 Sep 2026 13:58:45 GMT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-09-04 18:58:45,593 [INFO    ] MainProcess/httpx2 — HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-04 18:58:45,594 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.started request=<Request [b'POST']>
+2026-09-04 18:58:45,595 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.complete
+2026-09-04 18:58:45,595 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.started
+2026-09-04 18:58:45,595 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.complete
+2026-09-04 18:58:45,595 [DEBUG   ] MainProcess/openai._base_client — HTTP Response: POST 429
+2026-09-04 18:58:45,598 [DEBUG   ] MainProcess/openai._base_client — request_id: req_24b9643b5eb442f6a08d1169de0fa563
+2026-09-04 18:58:45,602 [DEBUG   ] MainProcess/openai._base_client — Encountered an HTTP status error: 429
+2026-09-04 18:58:45,602 [DEBUG   ] MainProcess/openai._base_client — Retrying due to status code 429
+2026-09-04 18:58:45,605 [DEBUG   ] MainProcess/openai._base_client — 2 retries left
+2026-09-04 18:58:45,607 [INFO    ] MainProcess/openai._base_client — Retrying request in 0.466820 seconds
+2026-09-04 18:58:46,091 [DEBUG   ] MainProcess/openai._base_client — Building HTTP request: method=POST retries_taken=1
+2026-09-04 18:58:46,095 [DEBUG   ] MainProcess/openai._base_client — Sending HTTP Request: POST
+2026-09-04 18:58:46,095 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:46,096 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.complete
+2026-09-04 18:58:46,097 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.started request=<Request [b'POST']>
+2026-09-04 18:58:46,098 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.complete
+2026-09-04 18:58:46,098 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:46,715 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 04 Sep 2026 13:28:46 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'283'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a35d56d82db34981-MAA'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'X-Content-Type-Options', b'nosniff'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-request-id', b'req_87590ab92cc9468abc00ac0ca29ef967'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-09-04 18:58:46,717 [INFO    ] MainProcess/httpx2 — HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-04 18:58:46,717 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.started request=<Request [b'POST']>
+2026-09-04 18:58:46,718 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.complete
+2026-09-04 18:58:46,718 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.started
+2026-09-04 18:58:46,718 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.complete
+2026-09-04 18:58:46,718 [DEBUG   ] MainProcess/openai._base_client — HTTP Response: POST 429
+2026-09-04 18:58:46,718 [DEBUG   ] MainProcess/openai._base_client — request_id: req_87590ab92cc9468abc00ac0ca29ef967
+2026-09-04 18:58:46,719 [DEBUG   ] MainProcess/openai._base_client — Encountered an HTTP status error: 429
+2026-09-04 18:58:46,719 [DEBUG   ] MainProcess/openai._base_client — Retrying due to status code 429
+2026-09-04 18:58:46,719 [DEBUG   ] MainProcess/openai._base_client — 1 retry left
+2026-09-04 18:58:46,719 [INFO    ] MainProcess/openai._base_client — Retrying request in 0.854886 seconds
+2026-09-04 18:58:47,578 [DEBUG   ] MainProcess/openai._base_client — Building HTTP request: method=POST retries_taken=2
+2026-09-04 18:58:47,582 [DEBUG   ] MainProcess/openai._base_client — Sending HTTP Request: POST
+2026-09-04 18:58:47,583 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:47,585 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_headers.complete
+2026-09-04 18:58:47,585 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.started request=<Request [b'POST']>
+2026-09-04 18:58:47,586 [DEBUG   ] MainProcess/httpcore2.http11 — send_request_body.complete
+2026-09-04 18:58:47,587 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.started request=<Request [b'POST']>
+2026-09-04 18:58:48,803 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 04 Sep 2026 13:28:48 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'283'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a35d56e16bef4981-MAA'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'Access-Control-Expose-Headers', b'CF-Ray'), (b'X-Content-Type-Options', b'nosniff'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-request-id', b'req_872fcdb0f9804e8e988a7bc5469524c2'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-09-04 18:58:48,806 [INFO    ] MainProcess/httpx2 — HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-04 18:58:48,807 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.started request=<Request [b'POST']>
+2026-09-04 18:58:48,807 [DEBUG   ] MainProcess/httpcore2.http11 — receive_response_body.complete
+2026-09-04 18:58:48,808 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.started
+2026-09-04 18:58:48,808 [DEBUG   ] MainProcess/httpcore2.http11 — response_closed.complete
+2026-09-04 18:58:48,809 [DEBUG   ] MainProcess/openai._base_client — HTTP Response: POST 429
+2026-09-04 18:58:48,809 [DEBUG   ] MainProcess/openai._base_client — request_id: req_872fcdb0f9804e8e988a7bc5469524c2
+2026-09-04 18:58:48,810 [DEBUG   ] MainProcess/openai._base_client — Encountered an HTTP status error: 429
+2026-09-04 18:58:48,810 [DEBUG   ] MainProcess/openai._base_client — Re-raising status error
+2026-09-04 18:58:48,817 [ERROR   ] MainProcess/harley.intelligence.ai_provider — Failed to plan action: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-04 18:58:48,818 [WARNING ] MainProcess/harley.main — Intent validation failed (auto-DENY): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-04 19:53:12,634 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: Workstation Locked.
+2026-09-04 22:24:38,805 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: System Suspend (Sleep) detected.
+2026-09-06 21:24:03,867 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: System Resume detected.
+2026-09-06 21:24:06,806 [INFO    ] MainProcess/harley.app.lifecycle — Triggering stream reconnection after resume delay.
+2026-09-06 21:24:29,237 [INFO    ] MainProcess/harley.app.lifecycle — OS Event: Workstation Unlocked.
